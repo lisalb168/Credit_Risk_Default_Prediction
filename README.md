@@ -13,7 +13,7 @@ There are 5 relavent datasets containing the historical loan terms, payments, de
 ## Modeling
 We explored 6 commonly used classification models including tree-based methods such as Random Forest, XGboost and LightGBM, as well as classical models such as Logistic regression with regularization, K-nearest neighbors (KNN) and support vector machine / classifier (SVM). For each classification model, a 5-fold CV with RandomizedSearchCV in Scikit-learn is run on the down-sampled balanced training set to select the best combination of hyperparameters. The parameter that yields the highest average AUC on the 5 validation sets is chosen, and the standard deviation is also reported to show the variability of the AUC scores among the 5 validation sets.
 
-<img src="https://github.com/lisalb168/Bo_project/blob/master/capstone%20project%201/figures/Model%20Performance.png"
+<img src="https://github.com/lisalb168/Credit_Risk_Default_Prediction/blob/master/figures/Model%20Performance.png"
      alt="Model Performance"
      style="float: left; margin-right: 10px;" />
 
